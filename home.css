@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand img {
+    height: 70px;
+    padding-left: 30px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+
+}
+
+.navbar-nav ul li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.navbar-nav li a {
+    float: right;
+    text-align: left;
+}
+
+#nav-bar ul li a:hover {
+    color: #007bff !important;
+}
+
+.navbar {
+    background: #fff;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.nav-link {
+    color: #555 !important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial !important;
+
+}
+
+.carousel-caption h5 {
+    color: rgb(255, 255, 255);
+    font-size: 42px;
+    font-family: cursive;
+
+
+}
+
+#about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+
+#about btn {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.about-content {
+    padding-top: 20px;
+}
+
+.skills-bar p {
+    margin-bottom: 18px;
+    font-weight: 600;
+}
+
+.progress-bar {
+    border-radius: 30px;
+}
+
+.progress {
+    border-radius: 20px !important;
+}
+
+#service {
+    background-image: linear-gradient(#13C5DD, rgba(0, 0, 0, 0.8)), url(9.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#service h1 {
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+}
+
+#service h1::after {
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+
+}
+
+.services {
+    margin-top: 40px;
+}
+
+.icon {
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+}
+
+#services p {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ccc;
+    padding: 30px;
+}
+
+.services .col-md-3:hover {
+    background: #007bff;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.icons-container {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.icons-container .icon {
+    border: #007bff;
+    box-shadow: #555;
+    border-radius: .5rem;
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.review {
+    background: url('click image/4.jpg'), no-repeat;
+    opacity: 1;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+.review .container .heading {
+    color: #fff;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.review .box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 5rem;
+}
+
+.review .box-container .box {
+    background: #fff;
+    width: 20rem;
+    margin: 4rem 1rem;
+    padding: 1.5rem;
+    position: relative;
+    border-radius: 2rem;
+}
+
+.review .box-container .box img {
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    bottom: -7rem;
+    left: -1rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review .box-container .box p {
+    font-size: 1.4rem;
+    color: var(--black);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.review .box-container .box h3 {
+    text-align: end;
+    color: var(--black);
+}
+
+.review .box-container .box span {
+    text-align: end;
+    color: var(--black);
+    display: block;
+    font-size: 1.5rem;
+}
+
+.review .box-container .box ::before {
+    content: '';
+    position: absolute;
+    bottom: -1rem;
+    left: 4rem;
+    height: 2rem;
+    width: 2rem;
+    background: #fff;
+    transform: rotate(45deg);
+}
+
+.review .box-container .box:hover {
+    background: #17afdd;
+    cursor: pointer;
+    justify-content: space-between;
+    transition: all 0.3s ease-in-out;
+    line-height: 2;
+}
+
+/* count---------------------------------------------------------------------------------------- */
+.counter .box-container {
+    display: flex;
+    justify-content: center;
+
+    padding: 2rem 0;
+}
+
+.counter .box-container .box {
+    margin: 2rem 5rem;
+    text-align: center;
+}
+
+.counter .box-container .box i {
+    color: rgb(95, 95, 241);
+    font-size: 5rem;
+}
+
+.counter .box-container .box span {
+    color: var(--black);
+    font-size: 3rem;
+    display: block;
+    padding: 1rem 0rem;
+}
+
+.carousel-inner img {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}

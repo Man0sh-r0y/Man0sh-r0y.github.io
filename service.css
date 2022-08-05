@@ -1,0 +1,70 @@
+#service {
+    background-image: linear-gradient(rgba(117, 231, 161, 0.8), rgba(0, 0, 0, 0.8)), url(9.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#service h1 {
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+}
+
+#service h1::after {
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+
+}
+
+.services {
+    margin-top: 40px;
+}
+
+.icon {
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+}
+
+#services p {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ccc;
+    padding: 30px;
+}
+
+.services .col-md-3:hover {
+    background: #007bff;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.icons-container {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.icons-container .icon {
+    border: #007bff;
+    box-shadow: #555;
+    border-radius: .5rem;
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.container a {
+    font-size: 30px;
+    text-align: center;
+}

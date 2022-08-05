@@ -1,0 +1,53 @@
+.home {
+    width: 100%;
+    min-height: 1vh;
+    position: relative;
+    background-position: center right;
+    background-size: cover;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.container h1 {
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(34, 70, 189);
+    margin-top: 50px;
+}
+
+.text span {
+    color: var(--main-color);
+}
+
+.text p {
+    margin: 00.5rem 0 1rem;
+}
+
+.pp-stores {
+    display: flex;
+}
+
+.app-stores img {
+
+    margin-right: 1rem;
+    cursor: pointer;
+    float: right;
+}
+
+.from-container form {
+
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    left: 100px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 0.5rem;
+
+}
+
+body {
+    background-color: crimson;
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Clinic</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/brands.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./location.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    
+    <!-- Template Main CSS File -->
+    <link href="doctor.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<!-- Nav Bar start -->
+<div class="container-fluid sticky-top bg-white shadow-sm mb-5">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
+            <a href="home.html" class="navbar-brand">
+                <h1 class="m-0 text-uppercase text-primary"><i class="fa fa-clinic-medical me-2"></i>Click clinic
+                </h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="home.html" class="nav-item nav-link">Home</a>
+                    <a href="service.html" class="nav-item nav-link ">Service</a>
+                    <a href="vaccination.html" class="nav-item nav-link">Vaccination</a>
+                    <a href="ambulanceFrontpage.html" class="nav-item nav-link">Ambulance</a>
+                    <a href="location.html" class="nav-item nav-link">Doctor</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<!-- Nav Bar End -->
+
+
+        <section class="container">
+            <form>
+                <i class="fa-thin fa-magnifying-glass"></i>
+                <input type="text" name="" id="search-item" placeholder="search location" onkeyup="search()">
+            </form>
+            <div class="product-list" id="product-list">
+                <div class="product">
+                    <img src="https://media.istockphoto.com/photos/victoria-memorial-landmark-in-calcutta-india-picture-id466240080?b=1&k=20&m=466240080&s=170667a&w=0&h=Q1ZXvHpqT1sjqORjiKbRutDhF-zYTnIlslVQJuG1ffc="
+                        alt="">
+                    <div class="p-details">
+                        <a class="p-city" href="doctor.html">SONARPUR</a>
+                        <!-- <div class="body"><a class ="p-city" href="#">phoolbagan</a><a class ="p-city" href="#">chitpur</a><a class ="p-city" href="#">kumartuli</a></div> -->
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4pfLzECgT3h1kRmuz42SUmuensGWcRDy7Vw&usqp=CAU"
+                        alt="">
+                    <div class="p-details">
+                        <a class="p-city" href="doctor.html">RAJARHAT</a>
+                        <!-- <div class="body"><a class ="p-city" href="#">phoolbagan</a><a class ="p-city" href="#">chitpur</a><a class ="p-city" href="#">kumartuli</a></div> -->
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="data:image/jpeg;base64,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"
+                        alt="">
+                    <div class="p-details">
+                        <a class="p-city" href="doctor.html">GARIA</a>
+                        <!-- <div class="body"><a class ="p-city" href="#">phoolbagan</a><a class ="p-city" href="#">chitpur</a><a class ="p-city" href="#">kumartuli</a></div> -->
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="https://media.istockphoto.com/photos/victoria-memorial-landmark-in-calcutta-india-picture-id466240080?b=1&k=20&m=466240080&s=170667a&w=0&h=Q1ZXvHpqT1sjqORjiKbRutDhF-zYTnIlslVQJuG1ffc="
+                        alt="">
+                    <div class="p-details">
+                        <a class="p-city" href="doctor.html">SALTLAKE</a>
+                        <!-- <div class="body"><a class ="p-city" href="#">phoolbagan</a><a class ="p-city" href="#">chitpur</a><a class ="p-city" href="#">kumartuli</a></div> -->
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7UFBF6tdtb0VNwP3z9HDXs9ATqYq23-pClg&usqp=CAU"
+                        alt="">
+                    <div class="p-details">
+                        <a class="p-city" href="doctor.html">JADAVPUR</a>
+                        <!-- <div class="body"><a class ="p-city" href="#">phoolbagan</a><a class ="p-city" href="#">chitpur</a><a class ="p-city" href="#">kumartuli</a></div> -->
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="https://media.istockphoto.com/photos/victoria-memorial-landmark-in-calcutta-india-picture-id466240080?b=1&k=20&m=466240080&s=170667a&w=0&h=Q1ZXvHpqT1sjqORjiKbRutDhF-zYTnIlslVQJuG1ffc="
+                        alt="">
+                    <div class="p-details">
+                        <a class="p-city" href="doctor.html">NEW TOWN</a>
+                        <!-- <div class="body"><a class ="p-city" href="#">phoolbagan</a><a class ="p-city" href="#">chitpur</a><a class ="p-city" href="#">kumartuli</a></div> -->
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="https://media.istockphoto.com/photos/victoria-memorial-landmark-in-calcutta-india-picture-id466240080?b=1&k=20&m=466240080&s=170667a&w=0&h=Q1ZXvHpqT1sjqORjiKbRutDhF-zYTnIlslVQJuG1ffc="
+                        alt="">
+                    <div class="p-details">
+                        <a class="p-city" href="doctor.html">BIDHANNAQAR</a>
+                        <!-- <div class="body"><a class ="p-city" href="#">phoolbagan</a><a class ="p-city" href="#">chitpur</a><a class ="p-city" href="#">kumartuli</a></div> -->
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="https://media.istockphoto.com/photos/victoria-memorial-landmark-in-calcutta-india-picture-id466240080?b=1&k=20&m=466240080&s=170667a&w=0&h=Q1ZXvHpqT1sjqORjiKbRutDhF-zYTnIlslVQJuG1ffc="
+                        alt="">
+                    <div class="p-details">
+                        <a class="p-city" href="doctor.html">BARUIPUR</a>
+                        <!-- <div class="body"><a class ="p-city" href="#">phoolbagan</a><a class ="p-city" href="#">chitpur</a><a class ="p-city" href="#">kumartuli</a></div> -->
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="https://media.istockphoto.com/photos/victoria-memorial-landmark-in-calcutta-india-picture-id466240080?b=1&k=20&m=466240080&s=170667a&w=0&h=Q1ZXvHpqT1sjqORjiKbRutDhF-zYTnIlslVQJuG1ffc="
+                        alt="">
+                    <div class="p-details">
+                        <a class="p-city" href="doctor.html">DANKUNI</a>
+                        <!-- <div class="body"><a class ="p-city" href="#">phoolbagan</a><a class ="p-city" href="#">chitpur</a><a class ="p-city" href="#">kumartuli</a></div> -->
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="https://media.istockphoto.com/photos/victoria-memorial-landmark-in-calcutta-india-picture-id466240080?b=1&k=20&m=466240080&s=170667a&w=0&h=Q1ZXvHpqT1sjqORjiKbRutDhF-zYTnIlslVQJuG1ffc="
+                        alt="">
+                    <div class="p-details">
+                        <a class="p-city" href="doctor.html">TAKURPUKUR</a>
+                        <!-- <div class="body"><a class ="p-city" href="#">phoolbagan</a><a class ="p-city" href="#">chitpur</a><a class ="p-city" href="#">kumartuli</a></div> -->
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <script src="./location.js"></script>
+    </body>
+
+</html>
